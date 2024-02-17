@@ -1,0 +1,17 @@
+.home .home-page {
+  padding: 5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.home .home-page h1 {
+  font-weight: 1000;
+  font-size: 30px;
+}
+
+.home .home-page p{
+    font-size: 27px;
+}
+
+

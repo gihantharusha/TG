@@ -1,0 +1,32 @@
+.navigation{
+    position: fixed;
+    width: 100%;
+}
+
+.navigation nav{
+    background-color: rgb(255, 221, 177);
+    padding: 1rem 2rem;
+    
+    
+}
+
+.navigation nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 10%;
+}
+
+.navigation nav ul li{
+    font-size: 25px;
+}
+
+.navigation nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.navigation nav ul li a:hover{
+    color: rgb(170, 165, 165);
+    text-decoration: underline;
+}

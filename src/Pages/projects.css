@@ -1,0 +1,40 @@
+.projects .projects-page{
+    padding: 5rem 2rem;
+}
+
+.projects .projects-page ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.projects .projects-page ul li{
+    background: rgb(78, 77, 77);
+    padding: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects .projects-page ul li h1{
+    font-weight: 1000;
+}
+
+.projects .projects-page ul li img{
+    width: 500px;
+    border: 2px solid black;
+}
+
+.projects .projects-page ul li a{
+    color: blue;
+    border: 2px solid lightblue;
+    text-align: center;
+    background: lightblue;
+    font-weight: 600;
+}
+
+.projects .projects-page ul li a:hover{
+    background-color: blue;
+    color: lightblue;
+}
